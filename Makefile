@@ -2,8 +2,8 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -lm
 
-TARGET = ass1
-SRC = random_generator c.c
+TARGET = generator
+SRC = random_generator.c
 
 OBJ = $(SRC:.c=.o)
 
