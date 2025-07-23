@@ -1,10 +1,10 @@
 /******************************************************************************
- * File: analyze_data.c
- * -Compile: gcc -o analyze_data analyze_data.c -lm
- * -Execute: ./analyze_data
+ * File: analyze_data c.c
+ * -Compile: gcc -o analyze_data analyze_data c.c -lm
+ * -Execute: ./analyze_data c
  *
  * Purpose:
- * This program reads the data from the files created by 'random_generator.c' to display it back on the console.
+ * This program reads the data from the files created by 'random_generator c.c' to display it back on the console.
  *
  * Features:
  * Calculate mean and standard deviation from each scenario to display back on console. 
