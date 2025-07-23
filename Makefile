@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -lm
 
 TARGET = ass1
-SRC = random_generator.c
+SRC = random_generator c.c
 
 OBJ = $(SRC:.c=.o)
 
@@ -14,9 +14,4 @@ $(TARGET): $(OBJ)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
-
-clean:
-	rm -f $(TARGET) $(OBJ)
-
-.PHONY: all clean
 
