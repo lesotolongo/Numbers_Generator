@@ -3,7 +3,7 @@
  * -Compile: gcc -o random_generator random_generator.c -lm
  * -OR
  * -Compile using makefile
- * -Execute: ./ass1
+ * -Execute: ./generator
  *
  * Purpose:
  *This program demonstrates the generation of random numbers using both uniform
